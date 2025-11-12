@@ -43,7 +43,6 @@ jobs:
           folder: _site
           bucket: ${{ secrets.S3_BUCKET }}
           bucket-region: ${{ secrets.S3_BUCKET_REGION }}
-          dist-id: ${{ secrets.DISTRIBUTION_ID }}
           invalidation: /
           delete-removed: true
           no-cache: true
