@@ -15,10 +15,10 @@ jobs:
           persist-credentials: false
 
       - name: Install dependencies
-        run: npm
+        run: npm install
 
       - name: Build
-        run: npm build
+        run: npm run build
 
       - name: Deploy
         uses: reggionick/s3-deploy@v4
